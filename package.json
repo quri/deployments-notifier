@@ -1,0 +1,40 @@
+{
+  "name": "deployments-notifier",
+  "version": "1.0.0",
+  "description": "Utility to notify third party services of deployments",
+  "main": "dist/deployments-notifier.js",
+  "jsnext:main": "dist/deployments-notifier.mjs",
+  "bin": {
+    "deployments-notifier": "index.js"
+  },
+  "scripts": {
+    "prebuild": "eslint .",
+    "build": "rollup -c",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "quri",
+    "pusher",
+    "rollbar",
+    "slack"
+  ],
+  "author": "Prasanna Suman / Loïc Chollier",
+  "license": "ISC",
+  "dependencies": {
+    "pusher": "^1.3.0",
+    "superagent": "^2.0.0",
+    "invariant": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.5",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "babelrc-rollup": "^1.1.0",
+    "eslint": "^2.13.1",
+    "eslint-config-quri-base": "^1.0.2",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^1.9.2",
+    "rollup": "^0.32.0",
+    "rollup-plugin-babel": "^2.5.1"
+  }
+}

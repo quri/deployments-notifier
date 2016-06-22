@@ -1,0 +1,7 @@
+{
+  "extends": "quri-base",
+  "env": {
+    "node": true,
+    "mocha": true
+  }
+}
