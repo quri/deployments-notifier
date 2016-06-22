@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/deployments-notifier.svg)](https://badge.fury.io/js/deployments-notifier)
+
 # Deployments Notifier
 
 This utility lets you notify various third party services when a deployment happens. It's configuration is defined with environment variables.
