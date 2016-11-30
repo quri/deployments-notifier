@@ -1,6 +1,6 @@
 {
   "name": "deployments-notifier",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Utility to notify third party services of deployments",
   "main": "dist/deployments-notifier.js",
   "jsnext:main": "dist/deployments-notifier.mjs",
